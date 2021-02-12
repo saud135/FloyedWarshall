@@ -95,7 +95,7 @@ for i in range(len(weight)):
     arr[out[i][0]-1][out[i][1]-1] = weight[i]
     #print(arr)
         
-print(arr)
+#print(arr)
 
         
 
