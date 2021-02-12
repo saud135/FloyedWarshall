@@ -158,11 +158,11 @@ def printSolution(dist,i):
     for i in range(V):
         for j in range(V):
             if(dist[i][j] == INF or dist[i][j] == INF - 2):
-                print("%7s" % ("-"), end = '')
+                print "%7s" % ("-"),
             else:
-                print( "%7d\t" % (dist[i][j]),end = '')
+                print "%7d\t" % (dist[i][j]),
             if j == V-1:
-                print ("")
+                print ""
  
  
 # Driver program to test the above program
